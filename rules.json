@@ -1,0 +1,79 @@
+[
+  {
+    "Port": "",
+    "OutboundTag": "direct",
+    "Ip": [],
+    "Domain": [],
+    "Protocol": [
+      "bittorrent"
+    ],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "Torrent ByPass VPN"
+  },
+  {
+    "Port": "",
+    "OutboundTag": "block",
+    "Ip": [],
+    "Domain": [
+      "geosite:category-ads-all"
+    ],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "Block Ad"
+  },
+  {
+    "Port": "",
+    "OutboundTag": "direct",
+    "Ip": [
+      "geoip:private"
+    ],
+    "Domain": [],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "ByPass Lan IP"
+  },
+  {
+    "Port": "",
+    "OutboundTag": "direct",
+    "Ip": [],
+    "Domain": [
+      "geosite:private"
+    ],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "ByPass Lan Domain"
+  },
+  {
+    "Port": "",
+    "OutboundTag": "proxy",
+    "Ip": [
+      "geoip:ru-blocked"
+    ],
+    "Domain": [
+      "geosite:discord",
+      "geosite:facebook",
+      "geosite:google-gemini",
+      "geosite:meta",
+      "geosite:openai",
+      "geosite:youtube",
+      "geosite:ru-blocked",
+      "ifconfig.co"
+    ],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "FuckRKN"
+  },
+  {
+    "Port": "",
+    "Network": "",
+    "OutboundTag": "direct",
+    "Ip": [],
+    "Domain": [
+      "regexp:.*"
+    ],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "Bypass VPN"
+  }
+]
